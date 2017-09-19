@@ -11,13 +11,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Splits overlapping date ranges in a neat object oriented way}
   spec.description   = %q{It consumes a collection of objects with Date ranges that are overlapping and Normalizes or splits them based on the overlaps.. returns the splitted dates as same type of objects again}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://rubygems.org/gems/dates_resolver"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org/gems/dates_resolver"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
